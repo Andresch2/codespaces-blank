@@ -1,0 +1,9 @@
+Program
+  Assignment(ingreso)
+    Number(80000.0)
+  Rule
+    Cond(salario > ...)
+      Number(70000.0)
+    Action(impuesto)
+      Number(0.0)
+  Print(ingreso)

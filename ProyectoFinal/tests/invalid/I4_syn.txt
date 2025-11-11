@@ -1,0 +1,4 @@
+// @title: I4 operador no permitido
+// @expect: syn
+ingreso = 120000;
+si ingreso <> 100000: impuesto = 0;

@@ -1,0 +1,5 @@
+// @title: V8 operación en RHS
+// @expect: ok
+ingreso = 100001;
+si ingreso > 100000: impuesto = (ingreso * 0.2) / 2;
+print(impuesto);

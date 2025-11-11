@@ -1,0 +1,4 @@
+ASSIGN ingreso := 150000
+ASSIGN tasa := 0.19
+IF ingreso > 120000 THEN impuesto := (ingreso * tasa)
+PRINT impuesto

@@ -1,0 +1,3 @@
+ASSIGN ingreso := ((80000 + 50000) / 1)
+IF ingreso >= 120000 THEN impuesto := (ingreso * 0.22)
+PRINT ingreso

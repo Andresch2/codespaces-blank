@@ -1,0 +1,1 @@
+(program (statement (assignment ingreso = (expr (term (term (factor ( (expr (expr (term (factor 80000))) + (term (factor 50000))) ))) / (factor 1.0))) ;)) (statement (ruleStmt si (cond ingreso (comparator >=) (expr (term (factor 120000)))) : (action impuesto = (expr (term (term (factor ingreso)) * (factor 0.22))) ;))) (statement (printStmt print ( ingreso ) ;)) <EOF>)

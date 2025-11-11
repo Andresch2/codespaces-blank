@@ -1,0 +1,1 @@
+(program (statement (ruleStmt si (cond ingreso (comparator >) (expr (term (factor 100000)))) : (action impuesto = (expr (term (term (factor ingreso)) * (factor 0.2))) ;))) (statement (printStmt print ( impuesto ) ;)) <EOF>)

@@ -1,0 +1,1 @@
+[SEM] Linea 4:0 - print de variable no declarada: 'impuesto'

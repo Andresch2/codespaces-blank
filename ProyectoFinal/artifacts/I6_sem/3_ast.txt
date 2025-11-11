@@ -1,0 +1,6 @@
+Program
+  Assignment(ingreso)
+    BinOp('+')
+      Var(x)
+      Number(1000.0)
+  Print(ingreso)

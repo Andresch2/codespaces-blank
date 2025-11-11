@@ -1,0 +1,4 @@
+Program
+  Assignment(ingreso)
+    Number(100000.0)
+  Print(impuesto)

@@ -1,0 +1,4 @@
+// @title: I3 paréntesis sin cerrar
+// @expect: syn
+ingreso = (100000 + 5000;
+print(ingreso);

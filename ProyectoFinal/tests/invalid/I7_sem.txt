@@ -1,0 +1,4 @@
+// @title: I7 print de no definida
+// @expect: sem
+ingreso = 100000;
+print(impuesto);

@@ -1,0 +1,6 @@
+ASSIGN sueldo := 90000
+ASSIGN extras := 20000
+ASSIGN ingreso := (sueldo + (extras * 1.5))
+ASSIGN tasa := 0.12
+IF ingreso >= 115000 THEN impuesto := (ingreso * tasa)
+PRINT ingreso

@@ -1,0 +1,3 @@
+ASSIGN ingreso := 95000
+IF ingreso <= 90000 THEN impuesto := 0
+PRINT ingreso

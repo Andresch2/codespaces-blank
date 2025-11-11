@@ -1,0 +1,5 @@
+ASSIGN a := 50000
+ASSIGN b := 70000
+ASSIGN ingreso := (a + (b * 1.2))
+IF ingreso > 100000 THEN impuesto := (ingreso * 0.1)
+PRINT ingreso

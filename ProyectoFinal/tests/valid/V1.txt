@@ -1,0 +1,5 @@
+// @title: V1 básico
+// @expect: ok
+ingreso = 120000;
+si ingreso > 100000: impuesto = ingreso * 0.2;
+print(impuesto);

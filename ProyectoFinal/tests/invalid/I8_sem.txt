@@ -1,0 +1,5 @@
+// @title: I8 división por cero literal
+// @expect: sem
+ingreso = 120000;
+si ingreso > 100000: impuesto = ingreso / 0;
+print(impuesto);

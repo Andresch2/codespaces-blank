@@ -1,0 +1,4 @@
+// @title: I5 uso antes de definir
+// @expect: sem
+si ingreso > 100000: impuesto = ingreso * 0.2;
+print(impuesto);

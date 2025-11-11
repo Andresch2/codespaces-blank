@@ -1,0 +1,1 @@
+[SEM] Linea 3:10 - Variable no declarada: 'x'

@@ -1,0 +1,5 @@
+extras
+impuesto
+ingreso
+sueldo
+tasa

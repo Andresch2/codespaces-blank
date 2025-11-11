@@ -1,0 +1,1 @@
+[LEX/SYN] line 3:16 token recognition error at: '$'

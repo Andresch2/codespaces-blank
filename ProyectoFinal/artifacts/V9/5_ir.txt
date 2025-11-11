@@ -1,0 +1,5 @@
+ASSIGN ingreso := 100000
+ASSIGN bonus := 5000
+ASSIGN ingreso := (ingreso + bonus)
+IF ingreso >= 105000 THEN impuesto := (ingreso * 0.18)
+PRINT impuesto

@@ -1,0 +1,1 @@
+(program (statement (assignment ingreso = (expr (expr (term (factor x))) + (term (factor 1000))) ;)) (statement (printStmt print ( ingreso ) ;)) <EOF>)

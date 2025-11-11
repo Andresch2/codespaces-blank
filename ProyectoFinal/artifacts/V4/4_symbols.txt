@@ -1,0 +1,3 @@
+impuesto
+ingreso
+tasa

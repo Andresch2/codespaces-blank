@@ -1,0 +1,4 @@
+// @title: I2 falta punto y coma
+// @expect: syn
+ingreso = 120000
+si ingreso > 100000: impuesto = ingreso * 0.2;

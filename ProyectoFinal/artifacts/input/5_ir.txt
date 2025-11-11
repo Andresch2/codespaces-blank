@@ -1,0 +1,7 @@
+ASSIGN base := 110000
+ASSIGN extra := 15000
+ASSIGN tasa := 0.18
+ASSIGN ingreso := (base + extra)
+ASSIGN impuesto := 0
+IF ingreso >= 120000 THEN impuesto := (ingreso * tasa)
+PRINT impuesto

@@ -1,0 +1,6 @@
+// @title: V7 suma de tasas
+// @expect: ok
+base = 110000;
+ingreso = base + 20000;
+si ingreso > 120000: impuesto = ingreso * (0.05 + 0.10);
+print(impuesto);

@@ -1,0 +1,5 @@
+// @title: V3 sin impuesto
+// @expect: ok
+ingreso = 95000;
+si ingreso <= 90000: impuesto = 0;
+print(ingreso);

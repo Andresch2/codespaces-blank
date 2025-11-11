@@ -1,0 +1,5 @@
+// @title: I9 ID no definido en condición
+// @expect: sem
+ingreso = 80000;
+si salario > 70000: impuesto = 0;
+print(ingreso);

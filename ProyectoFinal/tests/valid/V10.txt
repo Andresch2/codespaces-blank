@@ -1,0 +1,8 @@
+// @title: V10 caso más compuesto
+// @expect: ok
+sueldo = 90000;
+extras = 20000;
+ingreso = sueldo + extras * 1.5;
+tasa = 0.12;
+si ingreso >= 115000: impuesto = ingreso * tasa;
+print(ingreso);

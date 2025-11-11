@@ -1,0 +1,4 @@
+// @title: I6 variable RHS no definida
+// @expect: sem
+ingreso = x + 1000;
+print(ingreso);

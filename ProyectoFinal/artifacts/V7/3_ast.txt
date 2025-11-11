@@ -1,0 +1,17 @@
+Program
+  Assignment(base)
+    Number(110000.0)
+  Assignment(ingreso)
+    BinOp('+')
+      Var(base)
+      Number(20000.0)
+  Rule
+    Cond(ingreso > ...)
+      Number(120000.0)
+    Action(impuesto)
+      BinOp('*')
+        Var(ingreso)
+        BinOp('+')
+          Number(0.05)
+          Number(0.1)
+  Print(impuesto)

@@ -1,0 +1,5 @@
+// @title: V2 umbral >=
+// @expect: ok
+ingreso = 100000;
+si ingreso >= 100000: impuesto = ingreso * 0.15;
+print(impuesto);

@@ -1,0 +1,15 @@
+Program
+  Assignment(ingreso)
+    BinOp('/')
+      BinOp('+')
+        Number(80000.0)
+        Number(50000.0)
+      Number(1.0)
+  Rule
+    Cond(ingreso >= ...)
+      Number(120000.0)
+    Action(impuesto)
+      BinOp('*')
+        Var(ingreso)
+        Number(0.22)
+  Print(ingreso)

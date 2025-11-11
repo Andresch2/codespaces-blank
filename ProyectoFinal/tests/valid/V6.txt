@@ -1,0 +1,5 @@
+// @title: V6 paréntesis y división flotante
+// @expect: ok
+ingreso = (80000 + 50000) / 1.0;
+si ingreso >= 120000: impuesto = ingreso * 0.22;
+print(ingreso);

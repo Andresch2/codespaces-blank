@@ -1,0 +1,1 @@
+[SEM] Linea 3:3 - Variable no declarada en condición: 'ingreso'

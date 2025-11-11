@@ -1,0 +1,9 @@
+Program
+  Rule
+    Cond(ingreso > ...)
+      Number(100000.0)
+    Action(impuesto)
+      BinOp('*')
+        Var(ingreso)
+        Number(0.2)
+  Print(impuesto)
