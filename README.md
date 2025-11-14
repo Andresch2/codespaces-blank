@@ -1,6 +1,6 @@
 # 🧮 Proyecto Integrador Final – MiniCompiler
 
-### Lenguaje para cálculo de impuestos (gramática simple en español)
+### Lenguaje para cálculo de impuestos
 
 ---
 
