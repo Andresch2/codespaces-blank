@@ -1,5 +1,13 @@
-ASSIGN ingreso := 100000
-ASSIGN bonus := 5000
-ASSIGN ingreso := (ingreso + bonus)
-IF ingreso >= 105000 THEN impuesto := (ingreso * 0.18)
+ASSIGN sueldo := 140000.5
+ASSIGN bonos := ((23000 * 1.15) - (1500 / 3))
+ASSIGN deduc := (3200.25 / 1.5)
+ASSIGN ingreso := ((sueldo + bonos) - deduc)
+ASSIGN t1 := 0.18
+ASSIGN t2 := 0.22
+ASSIGN t3 := 0.3
+ASSIGN impuesto := 0
+IF ingreso > 300000 THEN impuesto := (impuesto + ((ingreso - 300000) * t3))
+IF ingreso > 200000 THEN impuesto := (impuesto + (100000 * t2))
+IF ingreso > 200000 THEN impuesto := (impuesto + (100000 * t1))
+IF ingreso <= 200000 THEN impuesto := (impuesto + ((ingreso - 100000) * t1))
 PRINT impuesto

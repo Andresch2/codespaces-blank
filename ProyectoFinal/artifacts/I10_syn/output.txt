@@ -1,0 +1,4 @@
+[source] tests/invalid/I10_syn.txt
+[status] error
+[type] lex/syn
+[msg] line 4:4 missing '=' at 'ingreso'

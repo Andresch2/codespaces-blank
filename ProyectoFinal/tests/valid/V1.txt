@@ -1,5 +1,7 @@
-// @title: V1 básico
+// @title: V1 básico (COP)
 // @expect: ok
+// Unidades: COP (pesos colombianos)
 ingreso = 120000;
+impuesto = 0;
 si ingreso > 100000: impuesto = ingreso * 0.2;
 print(impuesto);

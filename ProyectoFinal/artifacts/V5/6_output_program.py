@@ -1,6 +1,10 @@
-a = 50000
-b = 70000
-ingreso = (a + (b * 1.2))
+base = 90000
+horas_extra = (15000 * 1.2)
+bono = (30000 / 1.5)
+ingreso = ((base + horas_extra) + bono)
+impuesto = 0
+if ingreso > 200000:
+    impuesto = (impuesto + ((ingreso - 200000) * 0.22))
 if ingreso > 100000:
-    impuesto = (ingreso * 0.1)
-print(ingreso)
+    impuesto = (impuesto + (100000 * 0.18))
+print(impuesto)

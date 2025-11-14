@@ -1,0 +1,4 @@
+[source] tests/invalid/I3_syn.txt
+[status] error
+[type] lex/syn
+[msg] line 3:24 missing ')' at ';'

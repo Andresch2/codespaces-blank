@@ -1,7 +1,26 @@
-// @title: V9 reasignación de ingreso
+// @title: V9 progresivo tres tramos (COP)
 // @expect: ok
-ingreso = 100000;
-bonus = 5000;
-ingreso = ingreso + bonus;
-si ingreso >= 105000: impuesto = ingreso * 0.18;
+// Unidades: COP (pesos colombianos)
+
+// Componentes con decimales "feos"
+sueldo = 140000.5;
+bonos  = (23000 * 1.15) - (1500 / 3);
+deduc  = (3200.25 / 1.5);
+ingreso = sueldo + bonos - deduc;
+
+// Tasas
+t1 = 0.18; t2 = 0.22; t3 = 0.30;
+
+impuesto = 0;
+
+// Alto: > 300k
+si ingreso > 300000: impuesto = impuesto + (ingreso - 300000) * t3;
+
+// Medio: 200k–300k → siempre 100k al 22% si supera 200k
+si ingreso > 200000: impuesto = impuesto + 100000 * t2;
+
+// Bajo:
+si ingreso > 200000: impuesto = impuesto + 100000 * t1;
+si ingreso <= 200000: impuesto = impuesto + (ingreso - 100000) * t1;
+
 print(impuesto);

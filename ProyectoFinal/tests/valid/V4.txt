@@ -1,6 +1,7 @@
-// @title: V4 tasa variable
+// @title: V4 precedencia con paréntesis (COP)
 // @expect: ok
-ingreso = 150000;
-tasa = 0.19;
-si ingreso > 120000: impuesto = ingreso * tasa;
+// Unidades: COP (pesos colombianos)
+ingreso = 180000;
+impuesto = 0;
+si ingreso > 100000: impuesto = (ingreso - 100000) * 0.15;
 print(impuesto);

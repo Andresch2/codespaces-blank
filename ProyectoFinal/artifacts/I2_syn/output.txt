@@ -1,0 +1,4 @@
+[source] tests/invalid/I2_syn.txt
+[status] error
+[type] lex/syn
+[msg] line 4:0 missing ';' at 'si'

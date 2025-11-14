@@ -1,0 +1,4 @@
+[source] tests/invalid/I4_syn.txt
+[status] error
+[type] lex/syn
+[msg] line 4:12 extraneous input '>' expecting {'(', NUMBER, ID}

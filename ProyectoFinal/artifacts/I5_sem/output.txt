@@ -1,0 +1,4 @@
+[source] tests/invalid/I5_sem.txt
+[status] error
+[type] sem
+[msg] Linea 3:3 - Variable no declarada en condición: 'ingreso'

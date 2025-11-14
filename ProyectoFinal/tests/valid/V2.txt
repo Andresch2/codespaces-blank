@@ -1,5 +1,7 @@
-// @title: V2 umbral >=
+// @title: V2 umbral >= (COP)
 // @expect: ok
+// Unidades: COP (pesos colombianos)
 ingreso = 100000;
+impuesto = 0;
 si ingreso >= 100000: impuesto = ingreso * 0.15;
 print(impuesto);

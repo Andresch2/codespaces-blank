@@ -1,0 +1,7 @@
+[source] input.txt
+[status] ok
+[python] 6_output_program.py
+[returncode] 0
+
+[stdout]
+22500.0

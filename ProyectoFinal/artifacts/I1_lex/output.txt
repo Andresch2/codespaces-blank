@@ -1,0 +1,4 @@
+[source] tests/invalid/I1_lex.txt
+[status] error
+[type] lex/syn
+[msg] line 3:16 token recognition error at: '$'

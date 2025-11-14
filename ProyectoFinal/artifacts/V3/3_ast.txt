@@ -1,6 +1,8 @@
 Program
   Assignment(ingreso)
     Number(95000.0)
+  Assignment(impuesto)
+    Number(0.0)
   Rule
     Cond(ingreso <= ...)
       Number(90000.0)

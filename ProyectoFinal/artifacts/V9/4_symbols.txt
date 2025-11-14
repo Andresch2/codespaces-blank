@@ -1,3 +1,8 @@
-bonus
+bonos
+deduc
 impuesto
 ingreso
+sueldo
+t1
+t2
+t3

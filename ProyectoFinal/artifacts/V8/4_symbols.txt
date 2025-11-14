@@ -1,2 +1,6 @@
+ajuste
+bruto
 impuesto
 ingreso
+t1
+t2

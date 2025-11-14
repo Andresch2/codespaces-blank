@@ -1,0 +1,7 @@
+[source] input.txt
+[ir] artifacts/input/5_ir.txt
+[python] output_program.py
+[returncode] 0
+
+[stdout]
+22500.0

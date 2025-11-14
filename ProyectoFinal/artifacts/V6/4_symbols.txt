@@ -1,2 +1,6 @@
+extras
 impuesto
 ingreso
+sueldo
+t1
+t2

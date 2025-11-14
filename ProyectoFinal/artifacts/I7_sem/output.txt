@@ -1,0 +1,4 @@
+[source] tests/invalid/I7_sem.txt
+[status] error
+[type] sem
+[msg] Linea 4:0 - print de variable no declarada: 'impuesto'

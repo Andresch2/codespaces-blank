@@ -1,3 +1,4 @@
 ASSIGN ingreso := 100000
+ASSIGN impuesto := 0
 IF ingreso >= 100000 THEN impuesto := (ingreso * 0.15)
 PRINT impuesto

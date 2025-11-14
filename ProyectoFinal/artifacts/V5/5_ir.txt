@@ -1,5 +1,8 @@
-ASSIGN a := 50000
-ASSIGN b := 70000
-ASSIGN ingreso := (a + (b * 1.2))
-IF ingreso > 100000 THEN impuesto := (ingreso * 0.1)
-PRINT ingreso
+ASSIGN base := 90000
+ASSIGN horas_extra := (15000 * 1.2)
+ASSIGN bono := (30000 / 1.5)
+ASSIGN ingreso := ((base + horas_extra) + bono)
+ASSIGN impuesto := 0
+IF ingreso > 200000 THEN impuesto := (impuesto + ((ingreso - 200000) * 0.22))
+IF ingreso > 100000 THEN impuesto := (impuesto + (100000 * 0.18))
+PRINT impuesto

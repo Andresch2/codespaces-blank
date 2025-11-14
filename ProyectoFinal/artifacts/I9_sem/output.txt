@@ -1,0 +1,4 @@
+[source] tests/invalid/I9_sem.txt
+[status] error
+[type] sem
+[msg] Linea 4:3 - Variable no declarada en condición: 'salario'

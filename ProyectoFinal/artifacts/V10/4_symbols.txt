@@ -1,5 +1,11 @@
-extras
+ajuste
+base
+bono1
+bono2
+horas
 impuesto
 ingreso
-sueldo
-tasa
+product
+t1
+t2
+t3

@@ -1,0 +1,4 @@
+[source] tests/invalid/I8_sem.txt
+[status] error
+[type] sem
+[msg] Linea 4:32 - División por cero literal

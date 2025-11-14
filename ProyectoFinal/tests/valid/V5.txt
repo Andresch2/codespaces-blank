@@ -1,7 +1,20 @@
-// @title: V5 con aritmética
+// @title: V5 progresivo dos tramos (COP)
 // @expect: ok
-a = 50000;
-b = 70000;
-ingreso = a + b * 1.2;
-si ingreso > 100000: impuesto = ingreso * 0.1;
-print(ingreso);
+// Unidades: COP (pesos colombianos)
+
+// Partes del ingreso
+base = 90000;
+horas_extra = 15000 * 1.2;
+bono = 30000 / 1.5;
+ingreso = base + horas_extra + bono;
+
+// Impuesto acumulado por tramos
+impuesto = 0;
+
+// Tramo alto: > 200k al 22%
+si ingreso > 200000: impuesto = impuesto + (ingreso - 200000) * 0.22;
+
+// Tramo bajo: (100k, 200k]
+si ingreso > 100000: impuesto = impuesto + 100000 * 0.18;
+
+print(impuesto);

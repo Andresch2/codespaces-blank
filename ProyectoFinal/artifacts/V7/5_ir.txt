@@ -1,4 +1,8 @@
-ASSIGN base := 110000
-ASSIGN ingreso := (base + 20000)
-IF ingreso > 120000 THEN impuesto := (ingreso * (0.05 + 0.1))
+ASSIGN a := 12345
+ASSIGN b := 6789
+ASSIGN c := 2.75
+ASSIGN ingreso := (((a * (b + 111)) / (3 + c)) + ((a - b) * (c + 1.25)))
+ASSIGN tasa := ((3 / 20) + (7 / 200))
+ASSIGN impuesto := 0
+IF ingreso > 100000 THEN impuesto := (ingreso * tasa)
 PRINT impuesto

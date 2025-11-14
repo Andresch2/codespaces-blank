@@ -1,5 +1,22 @@
-// @title: V8 operación en RHS
+// @title: V8 ajuste porcentual y tramos descompuestos (COP)
 // @expect: ok
-ingreso = 100001;
-si ingreso > 100000: impuesto = (ingreso * 0.2) / 2;
+// Unidades: COP (pesos colombianos)
+
+// Ajuste previo (simula inflación/actualización)
+bruto = 80000 + 95000;
+ajuste = (1.02 + 0.03 + 0.02);  // 7% total sumando escalones
+ingreso = bruto * ajuste;
+
+// Tasas
+t1 = 0.18; t2 = 0.22;
+
+impuesto = 0;
+
+// Tramo alto
+si ingreso > 200000: impuesto = impuesto + (ingreso - 200000) * t2;
+
+// Tramo bajo (dos reglas según pase o no de 200k)
+si ingreso > 200000: impuesto = impuesto + 100000 * t1;
+si ingreso <= 200000: impuesto = impuesto + (ingreso - 100000) * t1;
+
 print(impuesto);

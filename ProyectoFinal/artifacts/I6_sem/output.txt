@@ -1,0 +1,4 @@
+[source] tests/invalid/I6_sem.txt
+[status] error
+[type] sem
+[msg] Linea 3:10 - Variable no declarada: 'x'

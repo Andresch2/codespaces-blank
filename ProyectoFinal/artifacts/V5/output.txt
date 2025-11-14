@@ -1,0 +1,7 @@
+[source] tests/valid/V5.txt
+[status] ok
+[python] 6_output_program.py
+[returncode] 0
+
+[stdout]
+18000.0

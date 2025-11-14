@@ -1,3 +1,10 @@
-ASSIGN ingreso := 100001
-IF ingreso > 100000 THEN impuesto := ((ingreso * 0.2) / 2)
+ASSIGN bruto := (80000 + 95000)
+ASSIGN ajuste := ((1.02 + 0.03) + 0.02)
+ASSIGN ingreso := (bruto * ajuste)
+ASSIGN t1 := 0.18
+ASSIGN t2 := 0.22
+ASSIGN impuesto := 0
+IF ingreso > 200000 THEN impuesto := (impuesto + ((ingreso - 200000) * t2))
+IF ingreso > 200000 THEN impuesto := (impuesto + (100000 * t1))
+IF ingreso <= 200000 THEN impuesto := (impuesto + ((ingreso - 100000) * t1))
 PRINT impuesto
